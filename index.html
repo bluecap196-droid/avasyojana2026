@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLUECAP CYBER CAFE | PMAY-U 2.0</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Noto Sans Gujarati',sans-serif;background:#f1f6fc;color:#172b46;line-height:1.7}
+header{background:linear-gradient(135deg,#052c60,#0879d9);color:white;padding:25px 16px 40px;text-align:center}
+.brand{font-size:25px;font-weight:800;color:#ffdc60}
+.brand i{font-size:35px;margin-right:8px}
+header h1{font-size:clamp(25px,5vw,42px);line-height:1.4;margin:24px 0 10px}
+header h1 span{color:#ffdf62}
+header p{max-width:700px;margin:auto}
+.container{max-width:950px;margin:auto;padding:16px}
+.notice{background:#fff1c4;color:#6d4d00;border-radius:12px;padding:14px;margin:0 0 20px;border:1px solid #f1d36c}
+h2{color:#074b91;font-size:23px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{background:white;padding:18px;border-radius:17px;border:1px solid #dce8f5;box-shadow:0 5px 20px #17375c0d}
+.stat{text-align:center}
+.stat i{font-size:28px;color:#0879d9}
+.stat strong{display:block;color:#06458a;font-size:27px}
+.price{display:flex;justify-content:space-between;gap:8px;padding:10px 0;border-bottom:1px solid #e8eef5}
+.price strong{color:#0872ca}
+ul{padding-left:23px}
+li{margin:8px 0}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.step{background:#fff;border-radius:14px;padding:15px;border:1px solid #dce8f5}
+.step i{font-size:26px;color:#0879d9}
+form{background:white;padding:20px;border-radius:17px;border:1px solid #dce8f5}
+label{display:block;font-weight:700;margin:12px 0 5px}
+input,select{width:100%;padding:12px;border:1px solid #cbd8e7;border-radius:9px;font:inherit;background:#fff}
+button,.btn{display:inline-block;border:0;border-radius:10px;padding:13px 17px;background:#0869bf;color:white;font:inherit;font-weight:700;text-decoration:none;cursor:pointer;margin-top:15px}
+.whatsapp{background:#079d64}
+.buttons{text-align:center}
+small{color:#617187}
+footer{margin-top:30px;text-align:center;padding:25px 12px;background:#052c60;color:white}
+footer strong{font-size:26px;color:#ffdc60}
+@keyframes float{50%{transform:translateY(-8px)}}
+.house{font-size:65px;color:#d5edff;animation:float 3s infinite}
+@media(max-width:650px){.grid,.steps{grid-template-columns:1fr}.brand{font-size:21px}.card{padding:15px}header h1{font-size:27px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand"><i class="fa-solid fa-house-laptop"></i> BLUECAP CYBER CAFE</div>
+  <div class="house"><i class="fa-solid fa-house-chimney-user"></i></div>
+  <h1>પ્રધાનમંત્રી આવાસ યોજના<br><span>શહેરી 2.0</span></h1>
+  <p>તમારા પોતાના ઘરના સપના તરફ એક પગલું! યોજનાની માહિતી અને અરજીમાં મદદ માટે નીચે વિગતો જુઓ.</p>
+  <a class="btn" href="#form" style="background:#ffdc60;color:#082e60">
+    <i class="fa-solid fa-pen-to-square"></i> અરજીમાં મદદ મેળવો
+  </a>
+</header>
+
+<main class="container">
+  <div class="notice">
+    <i class="fa-solid fa-circle-exclamation"></i>
+    <b>મહત્વપૂર્ણ સૂચના:</b> આ માહિતી મળેલી વિગતોના આધારે છે. પાત્રતા, ફી, ડિપોઝિટ અને છેલ્લી તારીખ સત્તાવાર સૂચનામાંથી ચકાસો. આ વેબપેજ સરકારી વેબસાઇટ નથી.
+  </div>
+
+  <h2><i class="fa-solid fa-chart-simple"></i> યોજનાની મુખ્ય માહિતી</h2>
+  <div class="grid">
+    <div class="card stat"><i class="fa-solid fa-building"></i><strong>3,289</strong>કુલ આવાસો</div>
+    <div class="card stat"><i class="fa-solid fa-house"></i><strong>3,170</strong>2 BHK આવાસો</div>
+    <div class="card stat"><i class="fa-solid fa-house-chimney"></i><strong>119</strong>1 BHK આવાસો</div>
+    <div class="card stat"><i class="fa-solid fa-calendar-days"></i><strong>10/12/2026</strong>જણાવેલી છેલ્લી તારીખ</div>
+  </div>
+
+  <div class="grid" style="margin-top:15px">
+    <section class="card">
+      <h2><i class="fa-solid fa-location-dot"></i> યોજના ક્યાં છે?</h2>
+      ભાવનગર શહેરના સીદસર અને અઘેવાડા વિસ્તારમાં કુલ 13 સ્થળોએ આવાસો હોવાનું જણાવાયું છે.
+      <h2><i class="fa-solid fa-people-group"></i> કોણ અરજી કરી શકે?</h2>
+      આપેલી માહિતી મુજબ પતિ-પત્ની અને અપરિણીત બાળકો ધરાવતું કુટુંબ, વિધવા, એકલી મહિલા અને ટ્રાન્સજેન્ડર અરજદારો. અંતિમ પાત્રતા સત્તાવાર નિયમો મુજબ રહેશે.
+    </section>
+    <section class="card">
+      <h2><i class="fa-solid fa-indian-rupee-sign"></i> આવાસની જણાવેલી કિંમત</h2>
+      <div class="price"><span>2 BHK</span><strong>₹9,00,000</strong></div>
+      <div class="price"><span>1 BHK</span><strong>₹7,00,000</strong></div>
+      <div class="price"><span>જણાવેલી ડિપોઝિટ</span><strong>₹7,500</strong></div>
+      <small>ચુકવણી કરતાં પહેલાં સત્તાવાર શરતો અને રસીદની ખાતરી કરો.</small>
+    </section>
+  </div>
+
+  <h2><i class="fa-solid fa-list-check"></i> અરજીની પ્રક્રિયા</h2>
+  <div class="steps">
+    <div class="step"><i class="fa-solid fa-clipboard-list"></i><h3>1. ડીમાન્ડ સર્વે</h3>સૌપ્રથમ PMAY-U 2.0 ઓનલાઈન ડીમાન્ડ સર્વેમાં નોંધણી કરો.</div>
+    <div class="step"><i class="fa-solid fa-clock"></i><h3>2. 24 કલાક રાહ</h3>આપેલી સૂચના મુજબ 24 કલાક પછી આવાસ યોજનાનું ફોર્મ ભરો.</div>
+    <div class="step"><i class="fa-solid fa-dice"></i><h3>3. ડ્રો પદ્ધતિ</h3>આપેલી માહિતી મુજબ પસંદગી ડ્રો દ્વારા થશે. અરજીથી આવાસની ખાતરી થતી નથી.</div>
+  </div>
+
+  <h2><i class="fa-solid fa-folder-open"></i> જરૂરી દસ્તાવેજો</h2>
+  <div class="card">
+    <ul>
+      <li>PMAY 2.0 ઓનલાઈન ડીમાન્ડ સર્વેની વિગતો</li>
+      <li>ઘરના તમામ સભ્યોનાં આધારકાર્ડ</li>
+      <li>જાતિનો દાખલો (જનરલ સિવાય)</li>
+      <li>01/04/2024 પછીનો આવકનો દાખલો</li>
+      <li>PH કેટેગરી માટે 40% કે તેથી વધુ દિવ્યાંગતાનો સિવિલ સર્જનનો દાખલો</li>
+      <li>01/04/2026 પછીનું કાયમી સરનામાનું લાઇટ બિલ</li>
+      <li>01/04/2026 પછીનું મિલકત વેરા બિલ</li>
+      <li>રેશનકાર્ડ અને ચૂંટણીકાર્ડ</li>
+      <li>બેંક પાસબુક / કેન્સલ ચેક / બેંક સ્ટેટમેન્ટ</li>
+      <li>નિયત નમૂનાનું નોટરાઇઝ્ડ સોગંદનામું</li>
+      <li>તાજેતરનો ફોટો અને સહીનો ફોટો</li>
+      <li>કોઈપણ બે સાક્ષીનાં આધારકાર્ડ</li>
+      <li>અરજદારનાં માતા-પિતાનાં આધારકાર્ડ</li>
+    </ul>
+  </div>
+
+  <h2 id="form"><i class="fa-solid fa-file-signature"></i> અરજીમાં મદદ માટે વિગતો ભરો</h2>
+  <form id="leadForm">
+    <label for="name">1. પૂરું નામ *</label>
+    <input id="name" name="name" required maxlength="100" placeholder="તમારું પૂરું નામ">
+
+    <label for="gender">2. જેન્ડર *</label>
+    <select id="gender" name="gender" required>
+      <option value="">પસંદ કરો</option>
+      <option>પુરુષ</option><option>મહિલા</option>
+      <option>ટ્રાન્સજેન્ડર</option><option>કહેવા ઇચ્છતા નથી</option>
+    </select>
+
+    <label for="mobile">3. મોબાઇલ નંબર *</label>
+    <input id="mobile" name="mobile" type="tel" inputmode="numeric" pattern="[6-9][0-9]{9}" maxlength="10" required placeholder="10 અંકનો મોબાઇલ નંબર">
+
+    <label for="email">4. ઈમેલ ID (વૈકલ્પિક)</label>
+    <input id="email" name="email" type="email" placeholder="તમારું ઈમેલ">
+
+    <label for="place">5. તમે કયા સ્થળે રહો છો? *</label>
+    <select id="place" name="place" required>
+      <option value="">સ્થળ પસંદ કરો</option>
+      <option>સીદસર</option><option>અઘેવાડા</option>
+      <option>ભાવનગર શહેરનો અન્ય વિસ્તાર</option>
+      <option>ભાવનગર બહાર</option><option>અન્ય</option>
+    </select>
+
+    <label for="dob">6. જન્મ તારીખ *</label>
+    <input id="dob" name="dob" type="date" required>
+
+    <label style="font-weight:400">
+      <input type="checkbox" id="consent" required style="width:auto">
+      હું સંમતિ આપું છું કે BLUECAP CYBER CAFE આ વિગતોનો ઉપયોગ અરજીમાં મદદ અંગે મારો સંપર્ક કરવા માટે કરી શકે છે.
+    </label>
+
+    <small>આ સત્તાવાર સરકારી અરજી નથી. અહીં આધાર નંબર, OTP, બેંકની વિગતો કે દસ્તાવેજોની નકલ દાખલ કરશો નહીં.</small>
+    <br>
+    <button type="submit"><i class="fa-brands fa-whatsapp"></i> WhatsApp પર વિગતો મોકલો</button>
+    <p id="message" aria-live="polite"></p>
+  </form>
+
+  <div class="buttons">
+    <a class="btn whatsapp" href="https://chat.whatsapp.com/GyMs2rYXj29L4NUfqYzReo" target="_blank" rel="noopener">
+      <i class="fa-brands fa-whatsapp"></i> અમારા WhatsApp ગ્રુપમાં જોડાઓ
+    </a>
+    <br>
+    <a class="btn" href="https://wa.me/918140305869" target="_blank" rel="noopener">
+      <i class="fa-solid fa-phone"></i> વધુ માહિતી: 8140305869
+    </a>
+  </div>
+</main>
+
+<footer>
+  <h2 style="color:white">BLUECAP CYBER CAFE</h2>
+  <p>તમારી સેવા, અમારી જવાબદારી</p>
+  <strong>📞 8140305869</strong>
+  <p><small style="color:#e1edff">યોજનાની વિગતો સત્તાવાર સૂચના સાથે ચકાસીને જ આગળ વધો.</small></p>
+</footer>
+
+<script>
+document.getElementById("leadForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  if (!this.reportValidity()) return;
+
+  const d = new FormData(this);
+
+  const text = [
+    "નમસ્તે BLUECAP CYBER CAFE, મને PMAY-U 2.0 માટે મદદ જોઈએ.",
+    "નામ: " + d.get("name"),
+    "જેન્ડર: " + d.get("gender"),
+    "મોબાઇલ: " + d.get("mobile"),
+    "ઈમેલ: " + (d.get("email") || "આપેલ નથી"),
+    "રહેઠાણ: " + d.get("place"),
+    "જન્મ તારીખ: " + d.get("dob"),
+    "સંપર્ક માટે સંમતિ: હા"
+  ].join("\n");
+
+  document.getElementById("message").textContent =
+    "WhatsApp ખુલશે. વિગતો ચકાસીને Send દબાવો.";
+
+  const url = "https://wa.me/918140305869?text=" +
+    encodeURIComponent(text);
+
+  window.open(url, "_blank", "noopener");
+});
+</script>
+
+</body>
+</html>
